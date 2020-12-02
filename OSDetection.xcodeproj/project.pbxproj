@@ -13,6 +13,9 @@
 		EAF1CBFA2575D68300464D7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1CBE52575D68000464D7D /* ContentView.swift */; };
 		EAF1CBFB2575D68300464D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF1CBE62575D68300464D7D /* Assets.xcassets */; };
 		EAF1CBFC2575D68300464D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF1CBE62575D68300464D7D /* Assets.xcassets */; };
+		EAF1CC0C2575D92000464D7D /* Nagivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1CC0B2575D92000464D7D /* Nagivation.swift */; };
+		EAF1CC102575F9C200464D7D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1CC0F2575F9C200464D7D /* File.swift */; };
+		EAF1CC112575F9C200464D7D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1CC0F2575F9C200464D7D /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,8 @@
 		EAF1CBF32575D68300464D7D /* OSDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF1CBF52575D68300464D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAF1CBF62575D68300464D7D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EAF1CC0B2575D92000464D7D /* Nagivation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nagivation.swift; sourceTree = "<group>"; };
+		EAF1CC0F2575F9C200464D7D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 				EAF1CBE42575D68000464D7D /* OSDetectionApp.swift */,
 				EAF1CBE52575D68000464D7D /* ContentView.swift */,
 				EAF1CBE62575D68300464D7D /* Assets.xcassets */,
+				EAF1CC0F2575F9C200464D7D /* File.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -86,6 +92,7 @@
 			children = (
 				EAF1CBF52575D68300464D7D /* Info.plist */,
 				EAF1CBF62575D68300464D7D /* macOS.entitlements */,
+				EAF1CC0B2575D92000464D7D /* Nagivation.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -188,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF1CBF92575D68300464D7D /* ContentView.swift in Sources */,
+				EAF1CC102575F9C200464D7D /* File.swift in Sources */,
 				EAF1CBF72575D68300464D7D /* OSDetectionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +205,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF1CBFA2575D68300464D7D /* ContentView.swift in Sources */,
+				EAF1CC112575F9C200464D7D /* File.swift in Sources */,
+				EAF1CC0C2575D92000464D7D /* Nagivation.swift in Sources */,
 				EAF1CBF82575D68300464D7D /* OSDetectionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

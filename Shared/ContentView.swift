@@ -9,9 +9,45 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        #if os(iOS)
+        iphoneNavView
+        #else
+        NavigationMacOS
+        #endif
     }
+    var iphoneNavView: some View {
+        NavigationView {
+        List {
+            NavigationLink(
+                destination: Text("Destination")) {
+                Label("Sparta", systemImage: "heart")
+            }
+            NavigationLink(
+                destination: Text("Destination")) {
+                Label("Sparta", systemImage: "heart")
+            }
+            NavigationLink(
+                destination: Text("Destination")) {
+                Label("Sparta", systemImage: "heart")
+            }
+            NavigationLink(
+                destination: Text("Destination")) {
+                Label("Sparta", systemImage: "heart")
+            }
+            NavigationLink(
+                destination: Text("Destination")) {
+                Label("Sparta", systemImage: "heart")
+            }
+            NavigationLink(
+                destination: Text("Destination")) {
+                Label("Sparta", systemImage: "heart")
+            }
+        }.listStyle(SidebarListStyle())
+            
+        }
+        .navigationTitle("Test")
+    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
