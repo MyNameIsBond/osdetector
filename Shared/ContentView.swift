@@ -10,18 +10,19 @@ struct ContentView: View {
         NavigationMacOS
         #endif
     }
-    var iphoneNavView: some View {
-        TabView {
-            ForEach(Menu) { m in
+}
+
+var iphoneNavView: some View {
+    TabView {
+        ForEach(Menu) { m in
+        Text(m.name)
+            .tabItem {
+                Image(systemName: m.icon)
                 Text(m.name)
-                    .tabItem {
-                        Image(systemName: m.icon)
-                        Text(m.name)
-                    }
             }
         }
-        .navigationTitle("Test")
     }
+    .navigationTitle("Test")
 }
 
 struct ContentView_Previews: PreviewProvider {

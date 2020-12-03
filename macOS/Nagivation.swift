@@ -8,24 +8,6 @@ struct Nagivation: View {
     }
 }
 
-struct middleSection: View {
-    var body: some View {
-        Text("middle Section")
-    }
-}
-
-struct rightSideSection: View {
-    var body: some View {
-        Text("right Section")
-    }
-}
-
-struct dest: View {
-    var body: some View {
-        Text("destionation")
-    }
-}
-
 var NavigationMacOS: some View {
     NavigationView {
     List(Menu) { m in
@@ -33,11 +15,9 @@ var NavigationMacOS: some View {
             destination: Text(m.name)) {
             Label(m.name, systemImage: m.icon)
         }
-        .navigationTitle("Menu")
     }
     .listStyle(SidebarListStyle())
-   
-    }
+    }.navigationTitle("Menu")
 }
 
 
