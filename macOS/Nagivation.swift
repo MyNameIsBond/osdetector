@@ -33,30 +33,10 @@ struct dest: View {
 
 var NavigationMacOS: some View {
     NavigationView {
-    List {
+    List(Menu) { m in
         NavigationLink(
-            destination: dest()) {
-            Label("Sparta", systemImage: "heart")
-        }
-        NavigationLink(
-            destination: dest()) {
-            Label("Sparta", systemImage: "heart")
-        }
-        NavigationLink(
-            destination: dest()) {
-            Label("Sparta", systemImage: "heart")
-        }
-        NavigationLink(
-            destination: dest()) {
-            Label("Sparta", systemImage: "heart")
-        }
-        NavigationLink(
-            destination: dest()) {
-            Label("Sparta", systemImage: "heart")
-        }
-        NavigationLink(
-            destination: dest()) {
-            Label("Sparta", systemImage: "heart")
+            destination: Text(m.name)) {
+            Label(m.name, systemImage: m.icon)
         }
         .navigationTitle("Menu")
     }

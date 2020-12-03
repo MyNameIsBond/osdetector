@@ -16,38 +16,17 @@ struct ContentView: View {
         #endif
     }
     var iphoneNavView: some View {
-        NavigationView {
-        List {
-            NavigationLink(
-                destination: Text("Destination")) {
-                Label("Sparta", systemImage: "heart")
+        TabView {
+            ForEach(Menu) { m in
+                Text(m.name)
+                    .tabItem {
+                        Image(systemName: m.icon)
+                        Text(m.name)
+                    }
             }
-            NavigationLink(
-                destination: Text("Destination")) {
-                Label("Sparta", systemImage: "heart")
-            }
-            NavigationLink(
-                destination: Text("Destination")) {
-                Label("Sparta", systemImage: "heart")
-            }
-            NavigationLink(
-                destination: Text("Destination")) {
-                Label("Sparta", systemImage: "heart")
-            }
-            NavigationLink(
-                destination: Text("Destination")) {
-                Label("Sparta", systemImage: "heart")
-            }
-            NavigationLink(
-                destination: Text("Destination")) {
-                Label("Sparta", systemImage: "heart")
-            }
-        }.listStyle(SidebarListStyle())
-            
         }
         .navigationTitle("Test")
     }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA35BBD1257962EF00886599 /* MenuModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35BBD0257962EF00886599 /* MenuModal.swift */; };
+		EA35BBD2257962EF00886599 /* MenuModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35BBD0257962EF00886599 /* MenuModal.swift */; };
 		EAF1CBF72575D68300464D7D /* OSDetectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1CBE42575D68000464D7D /* OSDetectionApp.swift */; };
 		EAF1CBF82575D68300464D7D /* OSDetectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1CBE42575D68000464D7D /* OSDetectionApp.swift */; };
 		EAF1CBF92575D68300464D7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1CBE52575D68000464D7D /* ContentView.swift */; };
@@ -14,11 +16,10 @@
 		EAF1CBFB2575D68300464D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF1CBE62575D68300464D7D /* Assets.xcassets */; };
 		EAF1CBFC2575D68300464D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF1CBE62575D68300464D7D /* Assets.xcassets */; };
 		EAF1CC0C2575D92000464D7D /* Nagivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1CC0B2575D92000464D7D /* Nagivation.swift */; };
-		EAF1CC102575F9C200464D7D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1CC0F2575F9C200464D7D /* File.swift */; };
-		EAF1CC112575F9C200464D7D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1CC0F2575F9C200464D7D /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA35BBD0257962EF00886599 /* MenuModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModal.swift; sourceTree = "<group>"; };
 		EAF1CBE42575D68000464D7D /* OSDetectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSDetectionApp.swift; sourceTree = "<group>"; };
 		EAF1CBE52575D68000464D7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EAF1CBE62575D68300464D7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		EAF1CBF52575D68300464D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAF1CBF62575D68300464D7D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		EAF1CC0B2575D92000464D7D /* Nagivation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nagivation.swift; sourceTree = "<group>"; };
-		EAF1CC0F2575F9C200464D7D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				EAF1CBE42575D68000464D7D /* OSDetectionApp.swift */,
 				EAF1CBE52575D68000464D7D /* ContentView.swift */,
 				EAF1CBE62575D68300464D7D /* Assets.xcassets */,
-				EAF1CC0F2575F9C200464D7D /* File.swift */,
+				EA35BBD0257962EF00886599 /* MenuModal.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -194,8 +194,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA35BBD1257962EF00886599 /* MenuModal.swift in Sources */,
 				EAF1CBF92575D68300464D7D /* ContentView.swift in Sources */,
-				EAF1CC102575F9C200464D7D /* File.swift in Sources */,
 				EAF1CBF72575D68300464D7D /* OSDetectionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,8 +204,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA35BBD2257962EF00886599 /* MenuModal.swift in Sources */,
 				EAF1CBFA2575D68300464D7D /* ContentView.swift in Sources */,
-				EAF1CC112575F9C200464D7D /* File.swift in Sources */,
 				EAF1CC0C2575D92000464D7D /* Nagivation.swift in Sources */,
 				EAF1CBF82575D68300464D7D /* OSDetectionApp.swift in Sources */,
 			);
