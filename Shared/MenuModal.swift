@@ -1,9 +1,4 @@
-//
-//  MenuModal.swift
-//  OSDetection
-//
-//  Created by Tony Hajdini on 03/12/2020.
-//
+
 
 import Foundation
 
