@@ -1,7 +1,7 @@
 
 <h1> Detect os in SwiftUI </h1>
     
-![alt text](https://i1.wp.com/thehappyprogrammer.com/wp-content/uploads/2020/12/detectos.png?ssl=1?raw=true)
+![alt text](https://i0.wp.com/thehappyprogrammer.com/wp-content/uploads/2020/12/DetectmacOSiOS.jpg?resize=1536%2C941&ssl=1?raw=true)
 
 <p>in this post I am going to be explaining how you can detect OS in SwiftUI. SwiftUI 2.0 allows us to write one base code for every Apple OS.</p>
 <hr>
